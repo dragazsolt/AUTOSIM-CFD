@@ -1,0 +1,20 @@
+CGAÉ 3dAlphawrapping (Windows) GNU licence(free for all)
+Complied the base code using Visual Studio. 
+
+Process: 
+1. cmd 
+2. triangle_mesh_wrap.exe example.stl relativealpfa relativeOffset 
+3. Program calulcate alpha value = diagonal dimension/relativealpha, offset = diagonal dimension/relativeOffset 
+4. alpha value is roughly same size as a surface mesh size and program generates uniform mesh  
+
+Example: 
+triangle_mesh_wrap.exe  helmet.stl 500 3000 
+
+Generally, I would like to use this program to make quick mesh for bad tesselated powertrain modules.  
+
+
+Have fun!  
+
+Regards,
+Zsolt 
+Autosim Consulting 
